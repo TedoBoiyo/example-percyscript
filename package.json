@@ -9,7 +9,8 @@
     "todomvc-common": "^1.0.2"
   },
   "devDependencies": {
-    "@percy/script": "^1.0.0",
+    "@percy/cli": "^1.0.0-beta.32",
+    "@percy/script": "^1.1.0",
     "http-server": "^0.12.3"
   }
 }
