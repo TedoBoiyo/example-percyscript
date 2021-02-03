@@ -12,6 +12,7 @@ jobs:
       - image: circleci/node:12-browsers
     environment:
       PERCY_ENABLE: 0
+      PERCY_TOKEN: 2f20dab76e667644c2a8a3a8b93685ed0bca3b2539270516a6d00e5a770928a9
     <<: *default_steps
   percy_test:
     # We've opted this node version to be the one that runs and reports Percy's status

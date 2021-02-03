@@ -1,6 +1,3 @@
-const PERCY_TOKEN='2f20dab76e667644c2a8a3a8b93685ed0bca3b2539270516a6d00e5a770928a9';
-const PERCY_BRANCH='local';
-
 const PercyScript = require('@percy/script');
 const httpServer = require('http-server');
 
